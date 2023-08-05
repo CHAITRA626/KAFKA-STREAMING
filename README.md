@@ -17,6 +17,7 @@ Spark Streaming with Real Time Data and Kafka
    bin/kafka-topics.sh --create --topic word-counts --bootstrap-server localhost:9092
    
 This will create two topics reddit-comments and word-counts
+
 5. To get messages in topic, open a new terminal and go to the directory where Kafka was installed and run
     
     bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic reddit-comments --from-beginning
